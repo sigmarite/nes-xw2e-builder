@@ -3,6 +3,8 @@
  * Component-specific style should not go here and be included directly as part of the components.
  */
 
+@import "~xwing-miniatures-font/dist/xwing-miniatures.css";
+
 // Theme variables, must be included before the libraries to allow overriding defaults
 @import "theme/theme-variables";
 
@@ -25,3 +27,7 @@
 
 // Theme customization
 @import "theme/theme";
+
+* {
+  outline: none;
+}
